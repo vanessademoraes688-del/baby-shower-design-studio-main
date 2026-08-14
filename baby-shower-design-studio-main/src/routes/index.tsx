@@ -64,8 +64,8 @@ function Index() {
         {/* Event details card */}
         <div className="mb-8 rounded-2xl border border-soft-gold/30 bg-cream p-6 text-center shadow-sm">
           <p className="mb-1 font-body text-sm font-semibold uppercase tracking-wider text-primary">
-            25 de agosto de 2026
-            <span className="mx-2 text-accent">•</span>às 14h
+            26 DE AGOSTO DE 2026
+            <span className="mx-2 text-accent">•</span>ÀS 15H
           </p>
           <p className="font-serif text-base font-medium text-foreground">
             Rua Jandiatuba,630 - Cj.318/316 - BL A
@@ -192,7 +192,7 @@ function Index() {
         {/* Special reminder card */}
         <div className="rounded-2xl border border-soft-gold/30 bg-cream-dark p-6 text-center shadow-sm">
           <p className="mb-2 font-body text-xs font-bold uppercase tracking-widest text-accent">
-            Lembrete especial
+            Lembretes especiais
           </p>
           <p className="font-serif text-base leading-relaxed text-foreground">
             Com carinho, pedimos que cada convidado traga{" "}

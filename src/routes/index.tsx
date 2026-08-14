@@ -15,8 +15,8 @@ import { MapPin, Sparkles, Heart } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
 // ✅ SUAS CREDENCIAIS DO EMAILJS (JÁ PREENCHIDAS)
-const SERVICE_ID = "service_50lblki";
-const TEMPLATE_ID = "template_bbu5olm";
+const SERVICE_ID = "service_5hayl38";
+const TEMPLATE_ID = "template_w6juaam";
 const PUBLIC_KEY = "cDI0NZZcxad4fE0Rl";
 
 export const Route = createFileRoute("/")({
@@ -103,7 +103,7 @@ function Index() {
       <div className="mx-auto max-w-xl rounded-3xl bg-background/80 p-6 shadow-lg backdrop-blur-sm">
         {/* Hero title */}
         <section className="mb-8 text-center">
-          <p className="font-serif text-2xl font-medium tracking-wide text-primary sm:text-3xl">
+          <p className="font-script text-2xl text-primary sm:text-3xl">
             Chá de Bebê
           </p>
           <p className="font-script text-2xl text-accent sm:text-3xl">da</p>
@@ -119,22 +119,19 @@ function Index() {
           conosco.
         </p>
 
-        {/* Event details card */}
+        {/* Event details card - INFORMAÇÕES ATUALIZADAS AQUI */}
         <div className="mx-auto mb-8 w-full max-w-[360px] rounded-2xl border border-soft-gold/30 bg-cream p-6 text-center shadow-sm">
           <p className="mb-1 font-body text-sm font-semibold uppercase tracking-wider text-primary">
-            25 de agosto de 2026
-            <span className="mx-2 text-accent">•</span>às 10H
+            26 DE AGOSTO DE 2026
+            <span className="mx-2 text-accent">•</span>ÀS 15H
           </p>
-
           <p className="font-serif text-base font-medium text-foreground">
             Rua Jandiatuba,630 - Cj.318/316 - BL A
           </p>
-
           <p className="font-body text-sm text-muted-foreground">
             CEP - 05716 - 150
           </p>
 
-          {/* Botão Como chegar */}
           <Button
             asChild
             className="mt-5 h-11 rounded-2xl bg-primary px-6 font-body text-sm font-semibold uppercase tracking-wide text-primary-foreground shadow-md transition-all hover:bg-primary/90 hover:shadow-lg"
@@ -269,7 +266,7 @@ function Index() {
         {/* Special reminder card */}
         <div className="mx-auto w-full max-w-[360px] rounded-2xl border border-soft-gold/30 bg-cream-dark p-6 text-center shadow-sm">
           <p className="mb-2 font-body text-xs font-bold uppercase tracking-widest text-accent">
-            Lembrete especial
+            Lembretes especiais
           </p>
           <p className="font-serif text-base leading-relaxed text-foreground">
             Com carinho, pedimos que cada convidado traga{" "}
@@ -278,6 +275,8 @@ function Index() {
             </span>{" "}
             para a Giovanna. ✦
           </p>
+          <p className="font-serif text-base leading-relaxed text-foreground">
+        Trazer um prato ou uma bebida.{" "} </p>
         </div>
 
         {/* Lista de presentes - com emoji 🎁 */}
@@ -299,10 +298,7 @@ function Index() {
 
         {/* Footer */}
         <footer className="mt-10 text-center">
-          <p className="font-script text-2xl text-primary">Giovanna</p>
-          <p className="mt-1 font-body text-xs text-muted-foreground">
-            Com muito amor e alegria
-          </p>
+          <p className="font-script text-2xl text-primary">Feito com amor para Giovanna </p>
         </footer>
       </div>
     </div>
